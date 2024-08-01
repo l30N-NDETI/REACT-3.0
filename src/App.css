@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.app {
+  padding: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.add-movie input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-movie button {
+  margin-top: 10px;
+}
+
+.filter input {
+  margin-right: 10px;
+}
